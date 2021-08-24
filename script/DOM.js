@@ -1,21 +1,20 @@
-const heading = document.getElementById('hello')
-console.dir(heading)
+//let li = document.getElementById('#arrays')
+//console.dir(li)
 
-setTimeout( () => {
- addStylesTo(heading)
-}, 2000)
+//let list = document.getElementsByClassName('.list_theme_item')
+//console.dir(list)
 
-
+//setTimeout( () => {
+//addStylesTo(li)
+//}, 2000)
 
 // const heading2 = document.getElementsByTagName('h2')[0]
-// const heading2 = document.getElementsByClassName('h2-class')[0]
-const hList = document.querySelectorAll('h1') //всегда один первый попавшийся элемент
-console.dir(hList[0])
+
+const hList = document.querySelectorAll('h1')
 
 setTimeout( () => {
     addStylesTo(hList[0])
 }, 2000)
-
 
 function addStylesTo(node) {
     node.style.color = '#008e8c'
@@ -24,3 +23,18 @@ function addStylesTo(node) {
     node.style.backgroundColor = 'Black'
     node.style.padding = '20px'
 }
+let nav =document.querySelector('nav')
+console.log(nav.textContent)
+
+let youtube = document.querySelector('.youtube')
+//youtube.setAttribute('href','https://www.youtube.com/c/VladilenMinin');
+//youtube.textContent = 'Youtube-канал Владилена Минина'
+
+function setYoutubeLink (youtube) {
+youtube.setAttribute('href','https://www.youtube.com/c/VladilenMinin');
+youtube.textContent = 'Youtube-канал Владилена Минина'
+}
+
+setTimeout( () => {
+    setYoutubeLink(youtube)
+}, 2000)

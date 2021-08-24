@@ -19,9 +19,9 @@ function calculateAge (objectYear) {
 
 const age = (objectYear) => {
        if (calculateAge (objectYear) < 10) {
-         console.log(`Год рождения объекта ${objectYear}, т.е. возраст объекта меньше 10 лет и составляет ${year}`)
+         console.log(`Год рождения объекта ${objectYear}, т.е. возраст объекта меньше 10 лет и составляет`)
     } else {
-    console.log(`Возраст объекта больше 10 лет и составляет ${year}`);
+    console.log(`Возраст объекта больше 10 лет и составляет`);
 }
 }
 age(2021)
