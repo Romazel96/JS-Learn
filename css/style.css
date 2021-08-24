@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/MullerMedium.woff2') format('woff2'),
+  url('../fonts/MullerMedium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/MullerRegular.woff2') format('woff2'),
+  url('../fonts/MullerRegular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/MullerBold.woff2') format('woff2'),
+  url('../fonts/MullerBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/MullerLight.woff2') format('woff2'),
+  url('../fonts/MullerLight.woff') format('woff');
+  font-display: swap;
+  font-weight: 200;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  /* Задает минимальную ширину тела проекта */
+  min-width: 320px;
+  margin: 0;
+  /* Задает стиль фона и шрифта всему проекту */
+  background-color: #f1f1f1;
+  font-family: 'Muller', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  line-height: 1;
+}
+
+/* Применяет свойста родительского элемента */
+button,
+input {
+  font: inherit;
+}
+
+/* Ограничивает размер изображений */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Убирает ненужное оформление текста */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  /* outline: 3px solid rgba(204,153,51,0.3); */
+}
+
+/* Убирает маркеры для списков */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Удаляет стандартные отступы */
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+input {
+  padding: 0;
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 20px auto;
+  font-size: 40px;
+  color:
+}
+
+.body{
+  background-color: #008e8c;
+}
+
+.container{
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 1500px;
+}
+
+.list_theme{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.list_theme_item{
+  margin-right: 30px;
+}
+
+.section_title{
+  margin-top: 20px;
+}
+
+.code_list{
+  margin: 15px;
+  padding: 15px;
+
+
+}
+.code_text{
+  font-size: 25px;
+}
