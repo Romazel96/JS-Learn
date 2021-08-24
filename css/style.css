@@ -123,6 +123,12 @@ input {
 
 .list_theme_item{
   margin-right: 50px;
+transition: font-size 200ms ease;
+}
+
+.list_theme_item:hover{
+  transform: 1.05;
+  font-size: 25px;
 }
 
 .section_title{
