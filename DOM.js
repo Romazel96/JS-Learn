@@ -9,12 +9,12 @@ setTimeout( () => {
 
 // const heading2 = document.getElementsByTagName('h2')[0]
 // const heading2 = document.getElementsByClassName('h2-class')[0]
-const h2List = document.querySelectorAll('h2') //всегда один первый попавшийся элемент
-console.dir(h2List[0])
+const hList = document.querySelectorAll('h1') //всегда один первый попавшийся элемент
+console.dir(hList[0])
 
 setTimeout( () => {
-    addStylesTo(h2List[0])
-}, 2000)
+    addStylesTo(hList[0])
+}, 5000)
 
 
 function addStylesTo(node) {
