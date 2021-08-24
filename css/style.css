@@ -102,6 +102,11 @@ input {
   margin: 20px auto 20px auto;
   padding: 20px;
   font-size: 50px;
+  transition: 200ms ease;
+  }
+
+.header:hover{
+  color: aquamarine;
 }
 
 .body{
@@ -114,7 +119,15 @@ input {
   padding-bottom: 20px;
   font-size: 25px;
   border-bottom: 3px solid black;
+  transition: 200ms ease;
 }
+
+.youtube:hover{
+  color: aquamarine;
+
+}
+
+
 .container{
   margin: 0 auto;
   padding-right: 15px;
@@ -130,8 +143,7 @@ padding-bottom: 20px;  font-size: 20px;
 border-bottom: 3px solid black;}
 
 .list_theme_item{
-
-transition: font-size 200ms ease;
+transition: 200ms ease;
 }
 
 .list_theme_item:not(:last-child){
@@ -140,7 +152,7 @@ transition: font-size 200ms ease;
 
 .list_theme_item:hover{
   transform: 1.05;
-  font-size: 25px;
+  color: aquamarine;
 }
 
 .section_title{
