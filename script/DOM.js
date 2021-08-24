@@ -14,11 +14,11 @@ console.dir(hList[0])
 
 setTimeout( () => {
     addStylesTo(hList[0])
-}, 5000)
+}, 2000)
 
 
 function addStylesTo(node) {
-    node.style.color = 'red'
+    node.style.color = '#008e8c'
     node.style.textAlign = 'center'
     node.style.fontSize = '50px'
     node.style.backgroundColor = 'Black'
