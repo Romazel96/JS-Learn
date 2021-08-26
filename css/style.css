@@ -216,6 +216,7 @@ text-align: center;
   padding: 15px;
   cursor: pointer;
   font-size: 20px;
+  min-width: 200px;
 }
 
 .btn2:hover{
@@ -226,4 +227,17 @@ text-align: center;
 .btn2:active{
   background-color: aquamarine;
   color: black;
+}
+
+.btn_block2{
+  text-align: center;
+}
+
+.btn_block_title{
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.btn2:not(:first-child){
+  margin-right: 20px;
 }

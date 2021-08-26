@@ -27,4 +27,6 @@ console.log(array.every(nameLength)) //возвращае true, если ВСЕ 
 console.log(array.some(nameLength)) //возвращае true, если хотя бы один элемент массива выполняет условия
 console.log(array.reverse()) //обратный порядок элементов
 console.log(array.join(': ')) //создает строку из массива с определенным разделителем
+console.log(array.split(':'))
+console.log(array.map(fucntion() {})) //
 console.log(array)
