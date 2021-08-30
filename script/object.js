@@ -1,4 +1,4 @@
-const person = {
+let person = {
     name: 'Roman',
     lastName: 'Zelensky',
     age: 25,
@@ -49,3 +49,5 @@ const logger = {
 const bound = logger.keys.bind(person)
 bound()
 logger.keysAndValues.call(person)
+
+////////////////////////////////
