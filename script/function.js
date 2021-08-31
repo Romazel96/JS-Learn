@@ -9,13 +9,14 @@ let personYear  = 1996;
 //    console.log('Возраст больше 10 лет');
 //}
 
-
-
-function calculateAge (objectYear) {
+function cjhkj(objectYear) {
     let currentYear = 2021
     let result = currentYear - objectYear
     return result
 }
+
+
+age(23);
 
 const age = (objectYear) => {
        if (calculateAge (objectYear) < 10) {

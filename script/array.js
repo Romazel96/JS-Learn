@@ -11,7 +11,7 @@ console.log(array.unshift('New York', 'Los Angeles')) //Добавляет эл�
 //Методы push/pop выполняются быстро, а методы shift/unshift – медленно.
 //самый простой способ очистить массив – это arr.length = 0
 console.log(array.toString()) //возвращает список элементов, разделённых запятыми в виде строки
-for (let arr of array)
+for (const arr of array)
     console.log(arr)
 console.log(array.splice(1,1)) // начиная с позиции 1, удалить 1 элемент
 console.log(array.splice(0,3, 'Minsk', 'Pekin', 'Tokyo')) //удалить 3 первых элемента и заменить их другими
@@ -29,4 +29,7 @@ console.log(array.reverse()) //обратный порядок элементо�
 console.log(array.join(': ')) //создает строку из массива с определенным разделителем
 console.log(array.split(':'))
 console.log(array.map(fucntion() {})) //
-console.log(array)
+console.log(array.forEach(el => {
+}));
+
+const arr2 = JSON.parse(JSON.stringify(array)); // Копирование массива

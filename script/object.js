@@ -13,6 +13,14 @@ let person = {
     }
     }
 
+
+    for (let [key,value] of Object.entries(person)) {
+        console.log(key, value)
+    }
+
+    if ('name' in person) {}
+    person.name
+
 console.log(person.name) //вывод отдельных ключей объектов
 console.log(person['age'])
 console.log(person["wedding"])

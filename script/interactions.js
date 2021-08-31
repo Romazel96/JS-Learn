@@ -4,7 +4,7 @@ document.querySelector('.btn_alert').addEventListener('click', function (){
 
 document.querySelector('.btn_confirm').addEventListener('click', function (){
     let decision = confirm('Точно нажать на кнопку?')
-    if (decision === true){
+    if (decision === true) {
         alert('Кнопка была нажата')
     }
     else {
@@ -12,11 +12,14 @@ document.querySelector('.btn_confirm').addEventListener('click', function (){
     }
 })
 
-document.querySelector('.btn_promt').addEventListener('click', function (){
+function btnpRomtListener() {
    let pr = prompt('Введите свое имя', 'Роман?')
     let age = prompt('Введите ваш возраст')
     alert(`Вас зовут: ${pr} и Вам ${age} лет`)
-})
+}
+
+document.querySelector('.btn_promt').addEventListener('click', btnpRomtListener)
+document.querySelector('.btn_promt').removeEventListener('click', btnpRomtListener)
 
 console.log('log')
 console.warn('warn')
